@@ -1,0 +1,28 @@
+RSAES-PKCS-v1_5
+===============
+
+
+风险说明
+--------
+
+RSAES-PKCS-v1_5存在padding oracle attack的风险，攻击者通过修改密文反复请求解密来测试padding，最终在不知道密钥的情况下成功解密。
+
+攻击案例
+--------
+
+`Efficient Padding Oracle Attacks on Cryptographic Hardware <https://eprint.iacr.org/2012/417.pdf>` 
+
+
+合规建议
+--------
+
+- 避免选用RSAES-PKCS-v1_5，以RSAES-OAEP替代。
+
+
+参考资料
+--------
+
+``Practical Padding Oracle Attacks on RSA <https://secgroup.dais.unive.it/wp-content/uploads/2012/11/Practical-Padding-Oracle-Attacks-on-RSA.html>`
+
+
+
