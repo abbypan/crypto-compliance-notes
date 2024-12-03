@@ -3,14 +3,13 @@
 
 .. note::
 
-   Github: `Crypto Compliance Notes <https://github.com/abbypan/crypto-compliance-notes>`
+   https://github.com/abbypan/crypto-compliance-notes
 
 目录
 ----
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: 对称密码
 
    sym/index
@@ -20,7 +19,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: 非对称密码
 
    asym/index
