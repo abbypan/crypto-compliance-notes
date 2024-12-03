@@ -24,5 +24,5 @@ CBC存在padding oracle attack的风险，攻击者通过修改密文反复请�
 参考资料
 --------
 
-`<Timing vulnerabilities with CBC-mode symmetric decryption using padding <https://learn.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode>`_
+`Timing vulnerabilities with CBC-mode symmetric decryption using padding <https://learn.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode>`_
 
