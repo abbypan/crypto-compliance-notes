@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
-=======================================
+Crypto Compliance Notes
+=======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+密码应用合规笔记：
 
-Read the tutorial here:
+https://crypto-compliance-notes.readthedocs.io/
 
-https://docs.readthedocs.io/en/stable/tutorial/
