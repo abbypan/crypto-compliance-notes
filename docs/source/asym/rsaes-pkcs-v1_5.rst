@@ -10,7 +10,7 @@ RSAES-PKCS-v1_5存在padding oracle attack的风险，攻击者通过修改密�
 攻击案例
 --------
 
-.. _Efficient Padding Oracle Attacks on Cryptographic Hardware: https://eprint.iacr.org/2012/417.pdf
+`Efficient Padding Oracle Attacks on Cryptographic Hardware <https://eprint.iacr.org/2012/417.pdf>`_
 
 
 合规建议
@@ -22,7 +22,7 @@ RSAES-PKCS-v1_5存在padding oracle attack的风险，攻击者通过修改密�
 参考资料
 --------
 
-.. _Practical Padding Oracle Attacks on RSA: https://secgroup.dais.unive.it/wp-content/uploads/2012/11/Practical-Padding-Oracle-Attacks-on-RSA.html
+`Practical Padding Oracle Attacks on RSA <https://secgroup.dais.unive.it/wp-content/uploads/2012/11/Practical-Padding-Oracle-Attacks-on-RSA.html>`_
 
 
 

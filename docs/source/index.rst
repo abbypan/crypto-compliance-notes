@@ -9,7 +9,7 @@
 ----
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 对称密码
 
    sym/index
@@ -18,7 +18,7 @@
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 非对称密码
 
    asym/index

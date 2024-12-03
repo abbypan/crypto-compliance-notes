@@ -10,7 +10,7 @@ CBC存在padding oracle attack的风险，攻击者通过修改密文反复请�
 攻击案例
 --------
 
-.. _Security Flaws Induced by CBC Padding Applications to SSL, IPSEC, WTLS...: https://www.iacr.org/cryptodb/archive/2002/EUROCRYPT/2850/2850.pdf
+`Security Flaws Induced by CBC Padding Applications to SSL, IPSEC, WTLS... <https://www.iacr.org/cryptodb/archive/2002/EUROCRYPT/2850/2850.pdf>`_
 
 
 合规建议
@@ -24,5 +24,5 @@ CBC存在padding oracle attack的风险，攻击者通过修改密文反复请�
 参考资料
 --------
 
-.. _Timing vulnerabilities with CBC-mode symmetric decryption using padding: https://learn.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode
+`<Timing vulnerabilities with CBC-mode symmetric decryption using padding <https://learn.microsoft.com/en-us/dotnet/standard/security/vulnerabilities-cbc-mode>`_
 
