@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Crypto Compliance Notes'
-copyright = '2024, Pan Lanlan'
-author = 'Pan Lanlan'
+copyright = '2024, Pan Lanlan (潘蓝兰)'
+author = 'Pan Lanlan (潘蓝兰)'
 
 release = '0.1'
 version = '0.1.0'
