@@ -17,6 +17,14 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: 随机数
+
+   random/index
+   random/dual_ec_drbg
+   random/random-reuse
+
+.. toctree::
+   :maxdepth: 1
    :caption: 对称密码
 
    sym/index
