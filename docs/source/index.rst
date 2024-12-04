@@ -17,6 +17,14 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: HASH
+
+   hash/index
+   hash/md5
+   hash/sha1
+
+.. toctree::
+   :maxdepth: 1
    :caption: 随机数
 
    random/index
@@ -28,6 +36,7 @@
    :caption: 对称密码
 
    sym/index
+   sym/key
    sym/cbc
 
 
