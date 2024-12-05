@@ -39,6 +39,7 @@
    sym/key
    sym/iv
    sym/cbc
+   sym/gcm
 
 
 
