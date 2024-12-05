@@ -47,6 +47,8 @@
    :caption: 非对称密码
 
    asym/index
+   asym/private-key
+   asym/public-key
    asym/rsa-textbook
    asym/rsaes-pkcs-v1_5
    asym/rsaes-oaep
