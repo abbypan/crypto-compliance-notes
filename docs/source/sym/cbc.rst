@@ -10,7 +10,8 @@ CBC存在padding oracle attack的风险，攻击者通过修改密文反复请�
 攻击案例
 --------
 
-`Security Flaws Induced by CBC Padding Applications to SSL, IPSEC, WTLS... <https://www.iacr.org/cryptodb/archive/2002/EUROCRYPT/2850/2850.pdf>`_
+- `Security Flaws Induced by CBC Padding Applications to SSL, IPSEC, WTLS... <https://www.iacr.org/cryptodb/archive/2002/EUROCRYPT/2850/2850.pdf>`_
+- `Attacking GlobalPlatform SCP02-compliant Smart Cards Using a Padding Oracle Attack<https://pdfs.semanticscholar.org/5677/39dbce113f7b258d3cdafc015745c63b12a3.pdf>`_
 
 
 合规建议
