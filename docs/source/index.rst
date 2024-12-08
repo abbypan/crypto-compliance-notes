@@ -38,7 +38,9 @@
    sym/index
    sym/key
    sym/iv
+   sym/aad
    sym/cbc
+   sym/ecb
    sym/gcm
 
 
@@ -53,6 +55,7 @@
    asym/rsa-textbook
    asym/rsaes-pkcs-v1_5
    asym/rsaes-oaep
+   asym/rsaes-oaep-aes.rst
    asym/rsassa-pkcs-v1_5
    asym/rsassa-pss
    asym/ecdsa
@@ -63,6 +66,8 @@
    :caption: 密钥协商
 
    exchange/index
+   exchange/dh
+   exchange/ecdh
 
 
 .. toctree::
