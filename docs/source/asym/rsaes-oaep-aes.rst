@@ -6,8 +6,11 @@ RSAES-OAEP + AES
 --------
 
 加密方：
+
 1. 安全随机生成对称密钥Key。
+
 #. 使用RSAES-OAEP加密Key，获得cipherKey。
+
 #. 使用Key对明文plaintext做AES加密，获得ciphertext。
 
 
