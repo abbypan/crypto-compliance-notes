@@ -20,6 +20,7 @@
    :caption: HASH
 
    hash/index
+   hash/crc
    hash/md5
    hash/sha1
 
