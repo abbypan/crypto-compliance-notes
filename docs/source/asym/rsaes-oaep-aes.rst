@@ -17,5 +17,6 @@ RSAES-OAEP + AES
 合规建议
 --------
 
+- plaintext长度应低于RSA模长。
 - 禁止将超过RSA模长的plaintext拆分成数组，对数组元素重复调用RSAES-OAEP加密。应选用数字信封，例如RSAES-OAEP + AES。
 

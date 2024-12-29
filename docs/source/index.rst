@@ -17,12 +17,32 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: HASH
+   :caption: 哈希
 
    hash/index
    hash/crc
    hash/md5
    hash/sha1
+   hash/sha2
+   hash/sha3
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 消息认证码
+
+   mac/index
+   mac/hmac
+   mac/cmac
+   mac/kmac
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 密钥派生函数
+
+   kdf/index
+
 
 .. toctree::
    :maxdepth: 1
@@ -32,6 +52,7 @@
    random/dual_ec_drbg
    random/random-reuse
 
+
 .. toctree::
    :maxdepth: 1
    :caption: 对称密码
@@ -40,10 +61,16 @@
    sym/key
    sym/iv
    sym/aad
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 密码模式
+
    sym/cbc
    sym/ecb
    sym/gcm
-
+   sym/des
 
 
 .. toctree::
@@ -53,13 +80,35 @@
    asym/index
    asym/private-key
    asym/public-key
+   asym/rsa
+   asym/ecc
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 公钥加密
+
    asym/rsa-textbook
    asym/rsaes-pkcs-v1_5
    asym/rsaes-oaep
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 数字信封
+
+   asym/ecies.rst
    asym/rsaes-oaep-aes.rst
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 数字签名
+
    asym/rsassa-pkcs-v1_5
    asym/rsassa-pss
    asym/ecdsa
+   asym/eddsa
 
 
 .. toctree::
