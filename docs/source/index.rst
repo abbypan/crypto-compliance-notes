@@ -42,6 +42,9 @@
    :caption: 密钥派生函数
 
    kdf/index
+   kdf/hkdf
+   kdf/pbkdf2
+   kdf/argon2
 
 
 .. toctree::
@@ -49,8 +52,9 @@
    :caption: 随机数
 
    random/index
-   random/dual_ec_drbg
    random/random-reuse
+   random/dual_ec_drbg
+   random/sha1_prng
 
 
 .. toctree::
@@ -113,11 +117,20 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: 密钥协商
+   :caption: 密钥交换
 
    exchange/index
    exchange/dh
    exchange/ecdh
+   exchange/noise
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 认证密钥交换(AKE)
+
+   exchange/sts
+   exchange/sigma
 
 
 .. toctree::
