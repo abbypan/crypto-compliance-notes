@@ -3,13 +3,13 @@ Balanced PAKE
 
 1. 安全初始化
 
-- 业务初始化绑定时，可采用CPace、SPAKE2等Balanced PAKE协议，通过用户扫二维码、或手动输入PIN码等方式，建立安全信道。
+ - 业务初始化绑定时，可采用CPace、SPAKE2等Balanced PAKE协议，通过用户扫二维码、或手动输入PIN码等方式，建立安全信道。
 
-- 在安全信道环境下，双方交换自身Long-Term Public Key。
+ - 在安全信道环境下，双方交换自身Long-Term Public Key。
 
 #. 后续安全通信 
 
-- 基于初始化安全交换的Long-Term Public Key，建立AKE安全通信。
+  - 基于初始化安全交换的Long-Term Public Key，建立AKE安全通信。
 
 
 合规建议
