@@ -6,9 +6,13 @@
 ------------
 
 终端实体(EE, End Entity)证书(Certificate)的安全检查：
+
 1. trust Manager: 初始化可信的Root CA。
+
 #. verify: 检查该EE Certificate是否在可信Root CA下的Certificate Chain内的中间CA签发。
+
 #. checkValidity: 检查Root CA Certificate -- Intermediate CA Certificate -- EE Certificate 证书的有效期。
+
 #. 内容检查: 检查EE Certificate中的证书域内容是否与预期相符，例如Subject Common Name, Subject Alt Names, Issuer Name, Key Usages, Extended Key Usages等。
 
 
