@@ -135,7 +135,32 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: 密码认证密钥协商(PAKE)
+
+   exchange/balanced-pake
+   exchange/augmented-pake
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: 传输层安全
 
    tls/index
    tls/tls
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 证书(Certificate)
+
+   cert/index
+   cert/cert-verify
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 业务场景(Use Case)
+
+   usecase/anti-replay
+   usecase/key-attestation
+   usecase/secure-key-import
