@@ -16,7 +16,8 @@ Dual_EC_DRBG存在隐藏安全缺陷，可能导致加密效果变弱，降低�
 合规建议
 --------
 
-- 禁止选用Dual_EC_DRBG生成随机数，选用CTR-DRBG。
+- 禁止选用Dual_EC_DRBG生成随机数。
+- 推荐选用CTR-DRBG。
 
 
 参考资料

@@ -1,7 +1,9 @@
 AES-CMAC
 ==========
 
-CCM = CTR + CMAC
+嵌入式业务场景可能使用AES-CMAC。
+
+例如蓝牙场景下 CCM = CTR + CMAC。
 
 
 参考资料
