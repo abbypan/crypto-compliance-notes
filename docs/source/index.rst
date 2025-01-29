@@ -14,6 +14,7 @@
 
    base/index
    base/base64
+   base/password
 
 .. toctree::
    :maxdepth: 1
@@ -25,6 +26,7 @@
    hash/sha1
    hash/sha2
    hash/sha3
+   hash/sm3
 
 
 .. toctree::
@@ -45,6 +47,7 @@
    kdf/hkdf
    kdf/pbkdf2
    kdf/argon2
+   kdf/scrypt
 
 
 .. toctree::
