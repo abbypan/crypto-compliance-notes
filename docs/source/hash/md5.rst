@@ -21,6 +21,15 @@ MD5
 - 旧业务根据监管要求整改。
 
 
+测试用例
+-----------
+
+::
+
+    $ echo -n 'justfortest' | openssl dgst -md5 -hex
+    MD5(stdin)= c830df6e9ba06988d27a14fc679e24c9
+
+
 参考资料
 --------
 

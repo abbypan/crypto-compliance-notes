@@ -15,6 +15,16 @@ CRC已被破解, CRC不是Hash算法。
 - 文件完整性、消息完整性的场景，应选用Hash算法，禁止选用CRC。
 
 
+测试用例
+-----------
+
+::
+ 
+    $ cpanm Archive::Zip
+    $ echo -n 'justfortest' | crc32 /dev/stdin
+    43458719
+
+
 参考资料
 --------
 

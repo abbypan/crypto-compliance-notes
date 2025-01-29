@@ -18,6 +18,14 @@ SHA1已被破解，攻击者能够针对快速伪造消息通过SHA1校验。
 - 新业务禁用SHA1，可选用SHA3-256，SHA256。
 - 旧业务根据监管要求整改。
 
+测试用例
+---------
+
+::
+
+    $ echo -n 'justfortest' | openssl dgst -sha1 -hex
+    SHA1(stdin)= 0ab00994c2451c712271df482dc15c5555cce606
+
 
 参考资料
 --------
