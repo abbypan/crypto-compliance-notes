@@ -32,11 +32,18 @@ HMAC
 测试用例
 -----------
 
-- `RFC4231 Identifiers and Test Vectors for HMAC-SHA-224, HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 <https://datatracker.ietf.org/doc/html/rfc4231>`_
+RFC4231
+
+::
+
+    key: 0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+    data: 4869205468657265
+    hmac-sha256: b0344c61d8db38535ca8afceaf0bf12b881dc200c9833da726e9376c2e32cff7
 
 
 参考资料
 -----------
 
 - `RFC2104 HMAC: Keyed-Hashing for Message Authentication <https://datatracker.ietf.org/doc/html/rfc2104>`_
+- `RFC4231 Identifiers and Test Vectors for HMAC-SHA-224, HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 <https://datatracker.ietf.org/doc/html/rfc4231>`_
 
