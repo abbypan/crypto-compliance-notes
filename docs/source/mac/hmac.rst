@@ -26,7 +26,7 @@ HMAC
     my $mac_bin = hmac_sha256($data_bin, $key_bin);
     my $mac_hexstr = unpack("H*", $mac_bin);
 
-    printf("key: %s\ndata: %s\nhmac-sha256: %s\n", $key_hexstr, $data_hexstr, $mac_hexstr);
+    printf("key_hexstr: %s\ndata_hexstr: %s\nhmac-sha256_hexstr: %s\n", $key_hexstr, $data_hexstr, $mac_hexstr);
 
 
 测试用例
@@ -36,9 +36,9 @@ RFC4231
 
 ::
 
-    key: 0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
-    data: 4869205468657265
-    hmac-sha256: b0344c61d8db38535ca8afceaf0bf12b881dc200c9833da726e9376c2e32cff7
+    key_hexstr: 0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+    data_hexstr: 4869205468657265
+    hmac-sha256_hexstr: b0344c61d8db38535ca8afceaf0bf12b881dc200c9833da726e9376c2e32cff7
 
 
 参考资料

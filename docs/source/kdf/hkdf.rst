@@ -36,12 +36,12 @@ RFC5869
 
 ::
 
-    key: a27e195cf3ea9755eceb1f77ca0dd20ba1fdaa8832f1b2fb637c8912ad3dce13 
-    salt: dc4dab0be272e8e85afb0aa1d423813bf9a5a2c31d14dd231992aabb4f6fc6f0 
+    key_hexstr: a27e195cf3ea9755eceb1f77ca0dd20ba1fdaa8832f1b2fb637c8912ad3dce13 
+    salt_hexstr: dc4dab0be272e8e85afb0aa1d423813bf9a5a2c31d14dd231992aabb4f6fc6f0 
     info: somelabel 
     okm_len: 32 
     hash: SHA256
-    okm: f1bf30afd3f7c964a750244ff2e1daed8ad130fe12ff2cb844bd9d556c10e39e
+    okm_hexstr: f1bf30afd3f7c964a750244ff2e1daed8ad130fe12ff2cb844bd9d556c10e39e
 
 
 参考资料

@@ -35,7 +35,7 @@ AES-CMAC
 
         char *mac_hexstr = OPENSSL_buf2hexstr(mac, (long) mac_len);
 
-        printf("key: %s\ndata: %s\naes-128-cmac: %s\n", argv[1], argv[2], mac_hexstr);
+        printf("key_hexstr: %s\ndata_hexstr: %s\naes-128-cmac_hexstr: %s\n", argv[1], argv[2], mac_hexstr);
 
         CMAC_CTX_free(ctx);
 

@@ -97,7 +97,7 @@ KMAC
 
         char *mac_hexstr = OPENSSL_buf2hexstr(mac, (long) mac_len);
 
-        printf("key: %s\ndata: %s\ncustom: %s\nxof_enable: %d\nmac_len: %d\nkmac-128: %s\n", 
+        printf("key_hexstr: %s\ndata_hexstr: %s\ncustom: %s\nxof_enable: %d\nmac_len: %d\nkmac-128_hexstr: %s\n", 
                 argv[1], argv[2], argv[3], xof_enabled, mac_len, mac_hexstr);
 
         OPENSSL_free(key);
@@ -118,12 +118,12 @@ KMAC
 
 ::
 
-    key: 404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F
-    data: 00010203
+    key_hexstr: 404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F
+    data_hexstr: 00010203
     custom: My Tagged Application
     xof_enable: 1
     mac_len: 32
-    kmac-128: 31a44527b4ed9f5c6101d11de6d26f0620aa5c341def41299657fe9df1a3b16c
+    kmac-128_hexstr: 31a44527b4ed9f5c6101d11de6d26f0620aa5c341def41299657fe9df1a3b16c
 
 
 
