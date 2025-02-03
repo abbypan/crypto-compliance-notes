@@ -1,14 +1,14 @@
 KMAC
-==========
+##########
 
 - 默认选用KMAC128，或者KMAC256。
 - KMAC的XOF模式支持任意长度的输出，例如KMACXOF128，KMACXOF256。
 
 
 示例代码
------------
+***********
 
-::
+.. code-block:: c
 
     #include <stdio.h>
     #include <string.h>
@@ -112,7 +112,7 @@ KMAC
 
 
 测试用例
------------
+***********
 
 - `evpmac_common.txt <https://github.com/openssl/openssl/blob/master/test/recipes/30-test_evp_data/evpmac_common.txt>`_
 
@@ -128,7 +128,7 @@ KMAC
 
 
 参考资料
---------
+********
 
 - `NIST SP 800-185 SHA-3 Derived Functions: cSHAKE, KMAC, TupleHash and ParallelHash <https://csrc.nist.gov/pubs/sp/800/185/final>`_
 

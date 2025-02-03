@@ -12,7 +12,7 @@ HMAC
 示例代码
 -----------
 
-::
+.. code-block:: perl 
 
     #!/usr/bin/perl
 

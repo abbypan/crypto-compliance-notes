@@ -8,7 +8,12 @@ AES-CMAC
 示例代码
 -----------
 
-::
+.. note::
+
+`https://github.com/abbypan/crypto-utils/tree/master/aes-cmac <https://github.com/abbypan/crypto-utils/tree/master/aes-cmac>`_
+
+
+.. code-block:: c
 
     #include <stdio.h>
     #include <string.h>
