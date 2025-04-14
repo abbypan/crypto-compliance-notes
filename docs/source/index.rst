@@ -58,6 +58,7 @@
    random/random-reuse
    random/dual_ec_drbg
    random/sha1_prng
+   random/secure-random
 
 
 .. toctree::
@@ -68,12 +69,6 @@
    sym/key
    sym/iv
    sym/aad
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 密码模式
-
    sym/cbc
    sym/ecb
    sym/gcm

@@ -30,5 +30,5 @@ TLS
 - `Disabling SSLv3 and RC4 <https://security.googleblog.com/2015/09/disabling-sslv3-and-rc4.html>`_
 - `RFC 8996 Deprecating TLS 1.0 and TLS 1.1 <https://www.rfc-editor.org/rfc/rfc8996>`_
 - `RFC 9155 Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2 <https://datatracker.ietf.org/doc/rfc9155/>`_
-
+- `Deprecating Obsolete Key Exchange Methods in TLS 1.2 <https://datatracker.ietf.org/doc/draft-ietf-tls-deprecate-obsolete-kex/>`_
 

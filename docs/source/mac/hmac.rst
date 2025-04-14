@@ -12,6 +12,8 @@ HMAC
 示例代码
 -----------
 
+`https://github.com/abbypan/crypto-utils/tree/master/hmac <https://github.com/abbypan/crypto-utils/tree/master/hmac>`_
+
 .. code-block:: perl 
 
     #!/usr/bin/perl

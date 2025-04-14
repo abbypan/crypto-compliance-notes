@@ -11,6 +11,8 @@ HKDF
 示例代码
 -----------
 
+`https://github.com/abbypan/crypto-utils/tree/master/hkdf <https://github.com/abbypan/crypto-utils/tree/master/hkdf>`_
+
 .. code-block:: perl
 
     #!/usr/bin/perl

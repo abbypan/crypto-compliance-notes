@@ -8,6 +8,8 @@ KMAC
 示例代码
 ***********
 
+`https://github.com/abbypan/crypto-utils/tree/master/kmac <https://github.com/abbypan/crypto-utils/tree/master/kmac>`_
+
 .. code-block:: c
 
     #include <stdio.h>
