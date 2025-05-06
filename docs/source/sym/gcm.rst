@@ -23,5 +23,5 @@ GCM
 参考资料
 --------
 
-`Trust Dies in Darkness: Shedding Light on Samsung's TrustZone Keymaster Design <https://eprint.iacr.org/2022/208.pdf>`_
-
+- `Trust Dies in Darkness: Shedding Light on Samsung's TrustZone Keymaster Design <https://eprint.iacr.org/2022/208.pdf>`_
+- `Why AES-GCM Sucks <https://soatok.blog/2020/05/13/why-aes-gcm-sucks/>`_
