@@ -160,5 +160,4 @@
    :caption: 业务场景(Use Case)
 
    usecase/anti-replay
-   usecase/key-attestation
-   usecase/secure-key-import
+   usecase/sdl
