@@ -18,6 +18,7 @@ RSAES-PKCS-v1_5存在padding oracle attack的风险，攻击者通过修改密�
 --------
 
 - 避免选用RSAES-PKCS-v1_5，以RSAES-OAEP替代。
+- NIST SP800-131Ar2，2023/12/31后禁用RSAES-PKCS-v1_5, 3DES。
 
 
 参考资料
