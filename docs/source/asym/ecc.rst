@@ -15,7 +15,7 @@ ECC
 
 - ECC密钥位长不低于256，或者可选用更高强度的384等。
 - ECC Point 优先选择Compressed模式，而非Uncompressed模式。
-- NIST IR 8547, 2035年后ECC deprecated。
+- NIST IR 8547, ecc 2030 deprecated, 2035 disallowed。
 
 
 数字签名
